@@ -6,9 +6,9 @@ public class Main {
 
        p1.setX(5);
        p1.setY(6);
-        p1.translate(400,500);
-        System.out.println(p1);
-        Point p2=p1.translated(237,0);
-        System.out.println(p2);
+       Point p2=new Point(7,8);
+       System.out.println((p1.toSvg()));
+       System.out.println();
+       System.out.println((p2.toSvg()));
     }
 }
