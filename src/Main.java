@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -14,5 +16,12 @@ public class Main {
      p1.setX(20);
      p1.setY(10);
      p2.translate(20,40);
+     ArrayList<Point>points =new ArrayList<>();
+     points.add(new Point(10,20));
+     points.add(new Point(20,30));
+     points.add(new Point(30,40));
+     points.add(new Point(40,50));
+     points.add(new Point(50,60));
+     Polygon poly=new Polygon(points);
     }
 }
