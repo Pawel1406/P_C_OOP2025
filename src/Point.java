@@ -28,7 +28,12 @@ public class Point {
         d.y=y+dy;
         return d;
     }
+    public Point(Point to_copy)
+    {
+        this.x=to_copy.x;
+        this.y=to_copy.y;
 
+    }
     public double getX() {
         return x;
     }
